@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#fff"
+    android:elevation="4dp"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:id="@+id/r1"
+            android:layout_centerVertical="true"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#ff5959"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
+
+        <!-- section for the price and name-->
+
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/name_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priceTxt"
+            android:layout_marginStart="5dp"
+            android:layout_toRightOf="@+id/r1"
+            android:fontFamily="@font/fonts"
+            android:text="معكرونة "
+            android:textColor="#4b4a4a"
+            android:textSize="20sp" />
+
+        <TextView
+            android:textColor="#ff5959"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price product"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="18dp"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/r1"
+            android:id="@+id/priceTxt"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/r4"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="20dp"
+            android:text=""
+            android:padding="5dp"
+            />
+
+
+        <!-- section for the delete product-->
+
+        <RelativeLayout
+
+            android:id="@+id/r4"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="30"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatButton
+
+                android:id="@+id/menuProduct"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="10dp"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="10dp"
+                app:srcCompat="@drawable/ic_more_vert_black_24dp" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

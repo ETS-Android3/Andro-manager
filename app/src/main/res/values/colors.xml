@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#c13d49</color>
+    <color name="colorPrimaryDark">#c13d49</color>
+    <color name="colorAccent">#c13d49</color>
+
+
+
+    <color name="one">#6d0094</color>
+    <color name="second">#6d0094</color>
+    <color name="third">#ff2068</color>
+    <color name="colorAccentSecondary">#ad1a7f</color>
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+
+
+    <color name="color_green">#14808d</color>
+    <color name="color_brown">#343838</color>
+    <color name="color_orange">#f38a32</color>
+    <color name="color_blue">#1479b7</color>
+    <color name="divider_grey">#e4e4e5</color>
+
+    <array name="rect_color">
+        <item>@color/color_blue</item>
+        <item>@color/color_brown</item>
+        <item>@color/color_green</item>
+        <item>@color/divider_grey</item>
+        <item>@color/color_orange</item>
+    </array>
+
+</resources>

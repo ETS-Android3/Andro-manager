@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    >
+
+                    <com.google.android.gms.ads.NativeExpressAdView
+                        android:id="@+id/adView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        ads:adUnitId="@string/native_second"
+                        ads:adSize="FULL_WIDTHx80">
+                    </com.google.android.gms.ads.NativeExpressAdView>
+
+
+        <!-- section for the list of the product  -->
+        <RelativeLayout
+            android:id="@+id/r2"
+            android:layout_below="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp">
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/recycel_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/r3"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            >
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:elevation="3dp"
+                app:cardCornerRadius="10dp"
+                android:layout_marginBottom="2dp"
+                >
+
+                <ImageView
+                    android:id="@+id/btn_camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_barcode2"
+
+                    />
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
