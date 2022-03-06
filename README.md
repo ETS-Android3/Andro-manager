@@ -1,6 +1,7 @@
-# product-managment
-Android Application help you to manage your product , sell your product just by using the code bar scanner is integrated in the app
+# Tha Andro Manager
 
+The Andro is an Android app that helps you to manage your stock as well helps you to buy to producs
+ 
 
 <img src="https://raw.githubusercontent.com/alitarfa/product-managment/master/image/unnamed.webp"/>
 <img src="https://raw.githubusercontent.com/alitarfa/product-managment/master/image/unnamed%20(1).webp"/>
